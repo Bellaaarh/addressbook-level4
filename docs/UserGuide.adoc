@@ -1,4 +1,4 @@
-= AddressBook Level 4 - User Guide
+= Debt Tracker - User Guide
 :site-section: UserGuide
 :toc:
 :toc-title:
@@ -219,8 +219,6 @@ Undo : undo
 Redo : redo
 
 Clear : clear
-
-//confirm about HideCommand
 
 List : list
 
