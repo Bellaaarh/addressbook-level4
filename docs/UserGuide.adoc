@@ -239,7 +239,8 @@ past transactions. +
 
 Conditions: +
 
-* The substring must be within the first or last name of a person involved, otherwise an empty list will be returned. +
+* The substring must be within the first or last name only of a person involved, otherwise an empty list will be
+returned. +
 * If several substrings are keyed in (eg. search al ice), all contacts in which the first or last names
 contain any of the substrings (in the example, either "al" or "ice") will be returned.
 
@@ -255,9 +256,9 @@ OR search past Yu + F + Pot
 === Deleting a transaction : `delete`
 
 Depending on format used, either deletes the specified transaction from the current transaction list only,  +
-or deletes the specified transaction from the past transaction list.
+or deletes the specified transaction from the past transaction list only.
 
-Format:
+Format: +
 Deleting from current transaction list: delete INDEX +
 Deleting from past transaction list: delete past INDEX
 
@@ -266,10 +267,10 @@ OR delete past 3
 
 === Selecting a transaction : `select`
 
-Depending on the format, selects the transaction identified by the index number used in the current transaction list
-or the past transaction list. +
+Depending on the format used, selects the transaction identified by its index number in either the current transaction
+list, or in the past transaction list. +
 
-Format:
+Format: +
 Within current transactions list: select INDEX +
 Within past transactions list: select past INDEX
 

@@ -1,0 +1,91 @@
+= Ysabella Tan - Project Portfolio
+
+:site-section: AboutUs
+:imagesDir: ../images
+:stylesDir: ../stylesheets
+
+== PROJECT: DebtTracker
+
+== Overview
+
+Debt Tracker (DT) is a desktop application for users to manage their loans and debts. The user interacts with it using
+a Command Line Interface (CLI), and it has a Graphic User Interface (GUI) created with JavaFX. It is written in Java,
+and has about 21kLoC. This application is meant for small and medium enterprises (SMEs) and/or personal use.
+
+== Summary of contributions
+
+* *Major enhancement*: Added the ability to *keep a separate list for paid transactions*
+** What it does: Allows the user to keep track of transactions that have been paid off
+** Justification: This feature helps the user keep a history of transactions that have been settled, which they can use
+in case the other party involved in the transaction tries to confuse the user's memory, or to dispute whether a
+transaction has been paid. This protects the user from possibly being scammed into making the same payment again. +
+Furthermore, it helps them keep track of how their current financial status came to be what it is, based on the past
+transactions they made and keep track of in the paid transactions list.
+** Highlights: This enhancement required an deep understanding of AddressBook-Level4's original code in order to be
+implemented, as in order to add this enhancement, I had to refactor several functions and classes and use the data
+structures they implemented.
+** Code contributed: +
+*** [https://github.com/CS2103-AY1819S1-W12-2/main/pull/96/files[Functional Code Block #1 - Implementing
+PaidCommand]] +
+*** [https://github.com/CS2103-AY1819S1-W12-2/main/pull/121/files[Functional Code Block #2 - Making some commands, that
+ were only for the current transaction list, available for the paid transactions list]]
+*** [https://github.com/CS2103-AY1819S1-W12-2/main/blob/master/src/test/java/seedu/address/logic/commands/PaidCommandTest.java[PaidCommand Test code]]
+
+* *Minor enhancement*: added *the wildcard search feature*
+** What it does: allows the user to locate a transaction linked to a person whose first or last name contains the
+substring
+** Justification: Sometimes the user may not be entirely sure of how a name is spelt, or they may forget how to spell
+their transaction partner's full name. With this feature, they need not remember the full name in order to find the
+intended transaction.
+** Code contributed:
+*** [https://github.com/CS2103-AY1819S1-W12-2/main/pull/88/files[Functional Code - Implement the logic for wildcard search]]
+
+* *Other contributions*:
+
+** Enhancements to existing features:
+*** Updated the GUI colour scheme [https://github.com/CS2103-AY1819S1-W12-2/main/pull/35/files[Pull Request #35]]
+*** Made separate tabs for the current and past transaction lists [https://github.com/CS2103-AY1819S1-W12-2/main/pull/118/files[Pull Request #118]]
+
+** Documentation:
+*** Edited several parts of the User Guide +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/pull/88/files[Pull Request #88]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/pull/121/files[Pull Request #121]]
+
+** Community:
+*** PRs reviewed:
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/pull/91[Pull Request #91]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/pull/97[Pull Request #97]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/pull/127[Pull Request #127]] +
+
+*** Issues created:
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/issues/23[Issue #23]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/issues/24[Issue #24]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/issues/25[Issue #25]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/issues/27[Issue #27]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/issues/29[Issue #29]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/issues/30[Issue #30]] +
+**** [https://github.com/CS2103-AY1819S1-W12-2/main/issues/31[Issue #31]] +
+
+== Contributions to the User Guide
+
+
+|===
+|Given below are sections I contributed to the User Guide. They showcase my ability to write documentation targeting end-users.
+|===
+[https://github.com/CS2103-AY1819S1-W12-2/main/pull/88/files?utf8=%E2%9C%93&diff=unified&short_path=d80058c#diff-d80058c033b9f127ec727c18cc84ce4d[Pull Request #88]] +
+
+[https://github.com/CS2103-AY1819S1-W12-2/main/pull/121/files?short_path=d80058c#diff-d80058c033b9f127ec727c18cc84ce4d[Pull Request #121]] +
+
+
+
+== Contributions to the Developer Guide
+
+|===
+|Given below are sections I contributed to the Developer Guide. They showcase my ability to write technical documentation and the technical depth of my contributions to the project.
+|===
+
+[https://github.com/CS2103-AY1819S1-W12-2/main/commit/5d42ebc0d2396551b96b92f769114ac8482faca3#diff-d23c8091515dc18149f4f2e759e1e288[Pull Request #3]] +
+
+[https://github.com/CS2103-AY1819S1-W12-2/main/commit/96470f5e35192a5450fac8d7a805c05736d1a7d4?short_path=d23c809#diff-d23c8091515dc18149f4f2e759e1e288[Pull Request #9]] +
+
+[https://github.com/CS2103-AY1819S1-W12-2/main/commit/726e9b1bf4b8f2138b63e63ca6788ff805dc824e#diff-d23c8091515dc18149f4f2e759e1e288[Pull Request #43]] +
