@@ -84,8 +84,3 @@ intended transaction.
 |Given below are sections I contributed to the Developer Guide. They showcase my ability to write technical documentation and the technical depth of my contributions to the project.
 |===
 
-[https://github.com/CS2103-AY1819S1-W12-2/main/commit/5d42ebc0d2396551b96b92f769114ac8482faca3#diff-d23c8091515dc18149f4f2e759e1e288[Pull Request #3]] +
-
-[https://github.com/CS2103-AY1819S1-W12-2/main/commit/96470f5e35192a5450fac8d7a805c05736d1a7d4?short_path=d23c809#diff-d23c8091515dc18149f4f2e759e1e288[Pull Request #9]] +
-
-[https://github.com/CS2103-AY1819S1-W12-2/main/commit/726e9b1bf4b8f2138b63e63ca6788ff805dc824e#diff-d23c8091515dc18149f4f2e759e1e288[Pull Request #43]] +
